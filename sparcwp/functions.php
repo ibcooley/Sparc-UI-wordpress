@@ -54,13 +54,6 @@ function sparcwp_setup() {
 	
     }
 
-	/**
-	 * Make theme available for translation
-	 * Translations can be filed in the /languages/ directory
-	 * If you're building a theme based on sparcwp, use a find and replace
-	 * to change 'sparcwp' to the name of your theme in all the template files
-	*/
-	load_theme_textdomain( 'sparcwp', get_template_directory() . '/languages' );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.

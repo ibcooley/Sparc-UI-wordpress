@@ -246,12 +246,3 @@ function sparcwp_categorized_blog() {
 	}
 }
 
-/**
- * Flush out the transients used in sparcwp_categorized_blog
- */
-function sparcwp_category_transient_flusher() {
-	// Like, beat it. Dig?
-	delete_transient( 'all_the_cool_cats' );
-}
-add_action( 'edit_category', 'sparcwp_category_transient_flusher' );
-add_action( 'save_post',     'sparcwp_category_transient_flusher' );
