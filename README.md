@@ -11,13 +11,15 @@ Most content layout is handled via the wordpress content editor. Hero sections o
 Plugins that this theme uses
 * [Bootstrap shortcodes](http://filipstefansson.com/bootstrap-3-shortcodes/).  This one is not essential but comes in handy if you don't want to use divs in the content editor. If you download via Wordpress, make sure it's the one by filip stefansson.
 * [Advanced Custom Fields](http://www.advancedcustomfields.com/). Used in the hero template and the hero in header template. You'll need to create 2 custom field groups.
-* hero_background_image
-* hero_content
+
+... hero_background_image
+
+... hero_content
 
 == Getting Started ==
 ---------------------
 
-Download the zipped `sparcwp` theme from github and install. 
+Download the theme from github, zip the sparcwp folder and install. 
 
 More info to come.
 
