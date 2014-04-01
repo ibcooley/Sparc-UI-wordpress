@@ -25,3 +25,15 @@ b, strong {
 p {
 	line-height: 1.5em;
 }
+
+
+/* Images and wp-captions should always fit and be responsive */
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+img[class*="wp-image-"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
