@@ -13,6 +13,8 @@
 // Remember to do this for all content templates you want to have this, 
 // for example content-single.php for the post single view. ?>
 
+<div class="container">
+	<div class="row">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="page-header">
 		<h1 class="page-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
@@ -70,3 +72,5 @@
 		<?php edit_post_link( __( 'Edit', 'sparcwp' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
+</div>
+</div>

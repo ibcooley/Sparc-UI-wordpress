@@ -20,29 +20,34 @@ Plugins that this theme uses
 == Getting Started ==
 ---------------------
 
-1. Download the theme from github, zip the sparcwp folder and install. 
+1. Download the theme from github and zip the sparcwp folder. 
 
-2. Download plugins and install 
+2. Download plugins and install before you install the theme.
 
    [Bootstrap shortcodes](http://filipstefansson.com/bootstrap-3-shortcodes/).
 
    [Advanced Custom Fields](http://www.advancedcustomfields.com/). You can install this from the WP plugins area
 
-3. Import dummycontent.xml file to import some content to get you started. 
+ 3. Install sparcwp theme
 
-4. Check to make sure the main menu is created.
+3. Import 
 
-5. Under "Appearance", from the customize tab - set main menu to be the 
+   sparcwp-dummy.xml file to import content to get you started and 
 
-6. Under "Appearance", from the header tab - add a custom logo. If you do not upload a logo, the site name will be the default logo.
+   advanced-custom-field-export.xml to import advanced custom field plugin fields.
+
+4. In the Menus tab, select Top Nav Menu and check the "main menu" box at the bottom.
+
+5. From the Customize tab - set main menu to be the Top Nav menu. Ignore footer menu for now. Also set Static Front Page to be the "Home" page.
+
+6. From the Header tab - add/change the custom logo if needed. If there is no logo image uploaded, the site name will be the default logo.
 
 7. Add footer blocks using the footer widget.
 
 
-
 == Less ==
 ---------------------
-The theme is referencing compiled css stylesheets. To update the styles, you'll update the less files.  The theme has grunt files included if you choose to use grunt for compiling.  You could also compile locally using whichever app you choose, however Less App currently does not support some bootstrap 3 mixins, which is why the grunt files are there.
+The theme is referencing a project and vendor compiled css stylesheet. To update the styles, you'll update the less files.  The theme has grunt files included if you choose to use grunt for compiling.  You could also compile locally using whichever app you choose, however Less App currently does not support some bootstrap 3 mixins, which is why the grunt files are there.
 
 
 # Questions?
