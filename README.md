@@ -10,12 +10,7 @@ Most content layout is handled via the wordpress content editor. Hero sections o
 
 Plugins that this theme uses
 * [Bootstrap shortcodes](http://filipstefansson.com/bootstrap-3-shortcodes/).  This one is not essential but comes in handy if you don't want to use divs in the content editor. If you download via Wordpress, make sure it's the one by filip stefansson.
-* [Advanced Custom Fields](http://www.advancedcustomfields.com/). Used in the hero template and the hero in header template. You'll need to create 2 custom field groups.
-
-   hero_background_image [See screenshot](https://github.com/sparcedge/Sparc-UI-wordpress/blob/master/screenshots/hero-background.gif) for detailed set up info. 
-
-   hero_content [See screenshot](https://github.com/sparcedge/Sparc-UI-wordpress/blob/master/screenshots/hero-content.gif) for detailed set up info. 
-
+* [Advanced Custom Fields](http://www.advancedcustomfields.com/). Used in the hero template and the hero in header template. 
 
 == Getting Started ==
 ---------------------
