@@ -28,10 +28,10 @@
 function sparcwp_custom_header_setup() {
 	if ( function_exists( 'add_theme_support' ) ) {
 		add_theme_support( 'custom-header', apply_filters( 'sparcwp_custom_header_args', array(
-			'default-image'          => 'http://placehold.it/200x75',
+			'default-image'          => '',
 			'default-text-color'     => '000',
-			'width'                  => 200,
-			'height'                 => 75,
+			'width'                  => '',
+			'height'                 => '',
 			'flex-height'            => true,
 			'wp-head-callback'       => 'sparcwp_header_style',
 			'admin-head-callback'    => 'sparcwp_admin_header_style',
