@@ -12,9 +12,9 @@ Plugins that this theme uses
 * [Bootstrap shortcodes](http://filipstefansson.com/bootstrap-3-shortcodes/).  This one is not essential but comes in handy if you don't want to use divs in the content editor. If you download via Wordpress, make sure it's the one by filip stefansson.
 * [Advanced Custom Fields](http://www.advancedcustomfields.com/). Used in the hero template and the hero in header template. You'll need to create 2 custom field groups.
 
-   hero_background_image
+   hero_background_image [See screenshot](https://github.com/sparcedge/Sparc-UI-wordpress/blob/master/screenshots/hero-background.gif) for detailed set up info. 
 
-   hero_content
+   hero_content [See screenshot](https://github.com/sparcedge/Sparc-UI-wordpress/blob/master/screenshots/hero-content.gif) for detailed set up info. 
 
 
 == Getting Started ==
@@ -27,6 +27,8 @@ Included is a dummycontent.xml file to import dummy data to get you started.
 You'll need to create the main menu and make sure you assign it as the "main menu" in the menu section. Then in the customize panel, choose your new menu as the "main menu".
 
 You can add a custom logo using the header section under "Appearance". If you do not upload a logo, the site name will be the default logo.
+
+Add footer blocks using the footer widget.
 
 
 
