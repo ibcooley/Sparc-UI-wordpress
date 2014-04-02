@@ -20,15 +20,23 @@ Plugins that this theme uses
 == Getting Started ==
 ---------------------
 
-Download the theme from github, zip the sparcwp folder and install. 
+1. Download the theme from github, zip the sparcwp folder and install. 
 
-Included is a dummycontent.xml file to import dummy data to get you started. 
+2. Download plugins and install 
 
-You'll need to create the main menu and make sure you assign it as the "main menu" in the menu section. Then in the customize panel, choose your new menu as the "main menu".
+   [Bootstrap shortcodes](http://filipstefansson.com/bootstrap-3-shortcodes/).
 
-You can add a custom logo using the header section under "Appearance". If you do not upload a logo, the site name will be the default logo.
+   [Advanced Custom Fields](http://www.advancedcustomfields.com/). You can install this from the WP plugins area
 
-Add footer blocks using the footer widget.
+3. Import dummycontent.xml file to import some content to get you started. 
+
+4. Check to make sure the main menu is created.
+
+5. Under "Appearance", from the customize tab - set main menu to be the 
+
+6. Under "Appearance", from the header tab - add a custom logo. If you do not upload a logo, the site name will be the default logo.
+
+7. Add footer blocks using the footer widget.
 
 
 
