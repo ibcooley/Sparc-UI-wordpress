@@ -28,21 +28,21 @@ Plugins that this theme uses
 
    [Advanced Custom Fields](http://www.advancedcustomfields.com/). You can install this from the WP plugins area
 
- 3. Install sparcwp theme
+3. Install sparcwp theme
 
-3. Import 
+4. Import 
 
    sparcwp-dummy.xml file to import content to get you started and 
 
    advanced-custom-field-export.xml to import advanced custom field plugin fields.
 
-4. In the Menus tab, select Top Nav Menu and check the "main menu" box at the bottom.
+5. In the Menus tab, select Top Nav Menu and check the "main menu" box at the bottom.
 
-5. From the Customize tab - set main menu to be the Top Nav menu. Ignore footer menu for now. Also set Static Front Page to be the "Home" page.
+6. From the Customize tab - set main menu to be the Top Nav menu. Ignore footer menu for now. Also set Static Front Page to be the "Home" page.
 
-6. From the Header tab - add/change the custom logo if needed. If there is no logo image uploaded, the site name will be the default logo.
+7. From the Header tab - add/change the custom logo if needed. If there is no logo image uploaded, the site name will be the default logo.
 
-7. Add footer blocks using the footer widget.
+8. Add footer blocks using the footer widget.
 
 
 == Less ==
