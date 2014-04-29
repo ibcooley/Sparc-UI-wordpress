@@ -12,7 +12,10 @@
  */
 
 get_header(); ?>
-	
+	<section class="main-content">	
+	<div class="container">
+		<div class="row">
+			<div id="content" class="main-content-inner col-sm-12 col-md-8">
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
