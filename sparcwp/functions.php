@@ -178,3 +178,14 @@ if (has_post_thumbnail() ) {
 return;
 }
 add_shortcode ('featured-image', 'sparcshortcode_featured-image');
+
+/**
+*Remove auto p tags from PAGES ONLY
+*/
+function sparcwp_wpautop_correction() {	
+	if( is_page() ) {		
+		remove_filter( 'the_content', 'wpautop' );
+		remove_filter( 'the_excerpt', 'wpautop' );			
+	}
+}
+add_action('pre_get_posts', 'sparcwp_wpautop_correction');
