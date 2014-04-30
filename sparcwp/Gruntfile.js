@@ -13,6 +13,7 @@ module.exports = function(grunt) {
        },
        files: {
          "css/sparcwp.css": "css/sparcwp.less",
+         "css/pattern-library.css": "css/pattern-library.less",
          "css/vendor.css": "css/vendor.less"
        }
      }

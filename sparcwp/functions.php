@@ -118,6 +118,11 @@ function sparcwp_scripts() {
     // load sparcwp styles
     wp_enqueue_style( 'sparcwp-customcss', get_template_directory_uri() . '/css/sparcwp.css' );
 
+    // load pattern library display styles ONLY on pattern-library template
+    if (is_page_template('page-pattern-library.php') ) {
+    	wp_enqueue_style( 'sparcwp-patternscss', get_template_directory_uri() . '/css/pattern-library.css' );
+    	wp_enqueue_script('sparcwp-patternsjs', get_template_directory_uri().'/js/pattern-lib.js', array('jquery') );
+    }
     // load bootstrap js
     wp_enqueue_script('sparcwp-bootstrapjs', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery') );
 
@@ -156,6 +161,11 @@ require get_template_directory() . '/includes/jetpack.php';
  * Load custom WordPress nav walker.
  */
 require get_template_directory() . '/includes/bootstrap-wp-navwalker.php';
+
+/**
+ * Load pattern library functions.
+ */
+require get_template_directory() . '/includes/pattern-functions.php';
 
 
 /**
