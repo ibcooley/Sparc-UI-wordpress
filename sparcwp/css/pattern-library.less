@@ -55,21 +55,15 @@ li.swatch-sm {
 
 .pattern-name {
   font-family: @font-family-base;
-  font-size: 28px;
+  font-size: 22px;
   text-transform: none;
   margin: 0;
   color: #2E4153;
 
 }
 
-display: inline-block;
-width: 100%;
-border-radius: 5px 5px 0 0;
-border-bottom: #ECEEF0 1px solid;
-
-
 .pattern-details {
-  background-color: #fbf9f9;
+  background-color: #F2F5F6;
   padding: .5em 1em;
   width: 96%;
   margin-left: 2%;
@@ -118,20 +112,21 @@ border-bottom: #ECEEF0 1px solid;
   float: right;
   width: 30%;
   margin: 1.25em 0 0.5em 0;
-  font-size: 13px;
+  font-size: 12px;
   white-space: pre-line;
   line-height: 1.4em;
-  font-family: "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;;
+  background: #F9FBFC;
 }
 
 .pattern-preview {
   background-color: #F9FBFC;
-  border-top: 1px solid #ECEEF0;
-  border-bottom: 1px solid #ECEEF0;
+  border: 1px solid #ECEEF0;
   padding: 1em 2em;
   width: 96%;
   margin-left: 2%;
   float: left;
+  border-top: 0;
   h3.pattern-subtitle {
     color: #6E7E8A;
     font-weight: 700;
@@ -232,7 +227,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #f5f2f0;
+  background: #F9FBFC;
 }
 
 /* Inline code */
@@ -342,3 +337,4 @@ pre.line-numbers > code {
       padding-right: 0.8em;
       text-align: right;
     }
+

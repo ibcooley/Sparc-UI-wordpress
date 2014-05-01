@@ -121,7 +121,7 @@ function sparcwp_scripts() {
     // load pattern library display styles ONLY on pattern-library template
     if (is_page_template('page-pattern-library.php') ) {
     	wp_enqueue_style( 'sparcwp-patternscss', get_template_directory_uri() . '/css/pattern-library.css' );
-    	wp_enqueue_script('sparcwp-patternsjs', get_template_directory_uri().'/js/pattern-lib.js', array('jquery') );
+    	wp_enqueue_script('sparcwp-patternsjs', get_template_directory_uri().'/js/pattern-lib.js', array('jquery'),'',true );
     }
     // load bootstrap js
     wp_enqueue_script('sparcwp-bootstrapjs', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery') );

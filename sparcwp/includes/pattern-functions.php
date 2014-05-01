@@ -6,8 +6,8 @@ $styleguidePath = '/';
 $patternsPath = $rootPath.'/patterns/';
 $cssPath = $rootPath.'/css/';
 
-// Provide a filter for excluding hidden .git or .svn folders from the inc() function
-class ExcludeFilter extends RecursiveFilterIterator {
+// Provide a filter for excluding hidden .git or .svn folders from the inc() function. 
+/*class ExcludeFilter extends RecursiveFilterIterator {
     public static $FILTERS = array(
         '.svn',
         '.git'
@@ -21,7 +21,7 @@ class ExcludeFilter extends RecursiveFilterIterator {
         }
         return true;
     }
-}
+}*/
 
 function inc($type,$name) {
     global $patternsPath; 
@@ -44,7 +44,7 @@ function inc($type,$name) {
     }
 }
 
-function displayPatchwork($dir) {
+/*function displayPatchwork($dir) {
     global $patternsPath;
     global $styleguidePath;
     $ffs = scandir($dir);
@@ -76,7 +76,7 @@ function displayPatchwork($dir) {
             }
         }
     }
-}
+}*/
 
 function displayPatterns($dir) {
     global $patternsPath;
@@ -103,9 +103,10 @@ function displayPatterns($dir) {
                 if(pathinfo($ff,PATHINFO_EXTENSION) == 'html' && $ff != 'foot.html') { // Skip non-HTML files
                     echo "<div class=\"pattern\" id=\"".$fName."\">\n";
                     echo "    <details class=\"pattern-details\">\n";
-                    echo "        <summary class=\"pattern-name\">".$fName." <a class=\"pattern-link\" rel=\"bookmark\" href=\"".$styleguidePath."?url=".$pathToFile."/".$ff."\" title=\"View just this pattern\">#</a></summary>\n";
+                    //echo "        <summary class=\"pattern-name\">".$fName." <a class=\"pattern-link\" rel=\"bookmark\" href=\"".$styleguidePath."?url=".$pathToFile."/".$ff."\" title=\"View just this pattern\">#</a></summary>\n";
+                    echo "        <summary class=\"pattern-name\">".$fName." </summary>\n";
                     echo "            <code class=\"pattern-markup language-markup\">".htmlspecialchars(@file_get_contents($dir.'/'.$ff))."</code>\n";
-                    echo "        <pre class=\"pattern-usage\"><strong>Usage:</strong> ".htmlspecialchars(@file_get_contents($dir.'/'.str_replace('.html','.txt',$ff)))."</pre>\n";
+                    echo "        <pre class=\"pattern-usage\"><strong>Usage:</strong> <p>".htmlspecialchars(@file_get_contents($dir.'/'.str_replace('.html','.txt',$ff)))."</p></pre>\n";
                     echo "    </details>\n";
                     echo "    <div class=\"pattern-preview\">\n";
                     include $dir.'/'.$ff;
