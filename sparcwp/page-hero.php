@@ -16,12 +16,7 @@ get_header(); ?>
   	</div>
 </section>
 <section class="main-content">
-	<div class="container">
-			<!-- .entry-header -->
-			<header class="page-header">
-				<h1 class="page-title"><?php the_title(); ?></h1>
-			</header>
-
+	
 			<?php while ( have_posts() ) : the_post(); ?>
 			
 				<?php the_content(); ?>
