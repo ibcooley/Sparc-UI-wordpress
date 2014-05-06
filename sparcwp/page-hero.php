@@ -8,7 +8,7 @@
 
 get_header(); ?>
 <?php $heroimage = get_field('hero_background_image'); ?>	
-<section class="jumbotron" style="background-image: url('<?php echo $heroimage['url']; ?>')">
+<section class="jumbotron" style="background-image: url('<?php echo $heroimage; ?>')">
 	<div class="container">
     	<div class="row">
     		<?php the_field('hero_content'); ?>
@@ -23,6 +23,5 @@ get_header(); ?>
 
 			<?php endwhile; // end of the loop. ?>
 
-	</div>
 </section>
 <?php get_footer(); ?>
