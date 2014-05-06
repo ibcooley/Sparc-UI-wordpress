@@ -1,7 +1,7 @@
 <?php
 // Modified from Paul Robert Lloyd's Barebones & A List Apart pattern library
 // Config options
-$rootPath = $_SERVER['DOCUMENT_ROOT'].'/sparcwp/wp-content/themes/sparcwp';
+$rootPath = $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/sparcwp';
 $styleguidePath = '/';
 $patternsPath = $rootPath.'/patterns/';
 $cssPath = $rootPath.'/css/';
