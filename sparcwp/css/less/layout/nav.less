@@ -34,6 +34,8 @@
 
 @media (max-width: @screen-xs-max) {
 	.navbar {
+		padding-top: 20px;
+		padding-bottom: 20px;
 		.navbar-nav>li>a {
 			background: @gray-dark;
 			color: @gray-lighter;
@@ -41,15 +43,12 @@
 				background: @gray;
 			}
 		}
+		.navbar-toggle {
+			margin-top: 10px;
+		}
 	}
 }
 
 @media (max-width: @screen-xs-min) {
-	.navbar {
-		padding-top: 20px;
-		padding-bottom: 20px;
-		.navbar-toggle {
-			margin-top: 0;
-		}
-	}
+
 }
