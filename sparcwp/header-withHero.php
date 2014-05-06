@@ -22,8 +22,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-<header class="site-header with-hero" style="background-image: url('<?php echo $thumb['0'];?>')">
+<?php $heroimage = get_field('hero_background_image'); ?> 
+<header class="site-header with-hero" style="background-image: url('<?php echo $heroimage; ?>')">
 	<nav role="navigation">
     <div class="navbar navbar-static-top">
         <div class="container">
