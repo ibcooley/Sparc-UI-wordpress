@@ -39,6 +39,26 @@ Plugins that this theme uses
 
 8. Add footer blocks using the footer widget.
 
+== Pattern Library ==
+---------------------
+The pattern library is a resource for html/snippet management within your theme.  
+1. Setting the correct path to the snippets folder
+
+   Make sure the $rootpath in /includes/pattern-functions.php is the correct path to the root of the sparcwp theme folder.  By default this is set to [document_root]/wp-content/themes/sparcwp, which assumes your wordpress install is at the server root level.
+
+2. Adding Snippets:
+   
+   All patterns are separate HTML files that live in /patterns. Ideally, the file name should be the same as the pattern's main class name. Add a file to see it in the library.
+
+   If you'd like to add usage notes to a pattern, add a .txt file with the same name as the .html file and it'll get pulled into the right place.
+
+3. Changing styles
+
+   The styling of the pattern library comes from the project css so it should automatically pull in the correct styling.  
+
+4. Non snippet patterns
+
+   If you want to add any styleguide elements for reference only, use the WP content editor on the Pattern Library page.  The default pattern library page has color swatches for reference.
 
 == Less ==
 ---------------------
